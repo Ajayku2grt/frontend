@@ -1,0 +1,68 @@
+body{
+            background-color: smokewhite;
+        }
+        .BannerSection{
+            /* top:0; */
+            /* left:0; */
+            /* width:100%; */
+            margin-top: 0px;
+        }
+        .banner-text{
+            position: absolute;
+            top:60%;
+            left:25%;
+            color: #fff;
+        }
+        .bannerHeader{
+            position: absolute;
+            top:20px;
+            right:20px;
+            color: rgb(249, 249, 249);
+            border-color: black;
+            padding: 11px 25px;
+            border-radius: 12px;
+            margin: 11px 12px 10px 0px;
+        }
+        .content{
+            margin: 10px;
+            padding:20px;
+            background-color: lightgray;
+        }
+        .content-title{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .content-text{
+            font-size: 19px;
+            font-style: italic;
+        }
+
+        .Process {
+            display: flex;
+            flex-wrap: wrap;              /* next line pe chala jaye agar jagah kam ho */
+            justify-content: center;      /* center horizontally */
+            gap: 20px;                    /* space between cards */
+            padding: 20px;
+        }
+        .process-title{
+            text-align: center;
+            font-size: 25px;
+        }
+       .process-card {
+            border: 2px solid #1b9aa1;    /* fixed border */
+            padding: 20px;
+            min-width: 200px;
+            flex: 1 1 200px;              /* responsive sizing */
+            text-align: center;
+            border-radius: 8px;
+            background: #f9f9f9;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .footer{
+            padding: 10px;
+            text-align: center;
+            background-color: #1b9aa1;
+            position: relative;
+        }
