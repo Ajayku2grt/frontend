@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Pictures - My Application</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;       /* ✅ Correct */
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 10px;   
+            margin-top: 5px;          /* gap between images */
+        }
+        .gallery img {
+            width: 290px;          /* fix size for consistency */
+            height: 650px;
+            object-fit: cover;     /* crop nicely */
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="IMG-20250925-WA0003.jpg" alt="">
+        <img src="IMG-20250925-WA0006.jpg" alt="">
+        <img src="IMG-20250925-WA0004.jpg" alt="">
+        <!-- <img src="IMG-20250925-WA0005.jpg" alt="">
+        <img src="IMG-20250925-WA0001.jpg" alt="">
+        <img src="IMG-20250925-WA0001.jpg" alt=""> -->
+        <img src="D:\projects\frontend\WhatsApp Image 2025-09-25 at 10.37.55_4b3571db.jpg" alt="">
+        <img src="WhatsApp Image 2025-09-25 at 10.37.55_9747366f.jpg" alt="">
+    </div>
+</body>
+</html>

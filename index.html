@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>
+            Dashboard - My Application
+        </title>
+        <link rel="stylesheet" href="style2.css">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: antiquewhite;
+            }
+            .main-sidebar{
+                position: fixed;         /* always stay in place */
+                top: 0;
+                left: 0;
+                width: 220px;            /* sidebar width */
+                height: 100%;            /* full screen height */
+                background-color: lightcyan;  /* dark bg */
+                color: #fff;
+                display: flex;
+                flex-direction: column;  /* stack items vertically */
+                align-items: flex-start; /* align to left */
+                padding: 20px;
+            }
+            .main-sidebar nav a{
+                color: black;
+                text-decoration: none;
+                margin: 10px 0;
+                display: block;
+                font-size: 16px;
+                transition: 0.3s;
+            }
+            .main-header{
+                position: fixed;
+                top:0;
+                left:263px;
+                background-color: lightcyan;
+                width: 1266px;
+                height: 50px;
+            }
+            .main-header .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  float: right;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+        </style>
+    </head>
+    <body>
+        <div class="main-sidebar">
+            <nav>
+                <a href="">Home</a>
+                <a href="">Blog</a>
+                <a href="">Analyst</a>
+                <a href="">Clinician</a>
+            </nav>
+        </div>
+        <div class="main-header">
+            <div>
+                <button class="dropbtn">Ajaykumar</button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+
+             <div class="BannerSection">
+                <img src="banner.jpg" alt="banners" width="100%" height="650px">
+                <div class="banner-text">
+                    <h1>Enjoy Vacatoin at a bliss full place</h1>
+                    <p>Unwind on sandy beaches, soak in the sunshine, and let the ocean waves refresh your soul.</p>
+                </div>
+            </div>
+            <div class="content">
+                <h1 class="content-title">Our Story</h1>
+                <p class="content-text">
+                    Our story began with a simple idea — to create something that makes a difference. 
+                    What started as a few lines of code and a passion for design has grown into a 
+                    journey of exploration, learning, and building. In the early days, we focused on 
+                    experimenting, making mistakes, and discovering what worked. Those challenges 
+                    shaped our mindset: that every setback is just another step toward growth.
+
+                    Over time, we learned that success doesn’t just come from technology, but from the people 
+                    behind it and the purpose that drives it. Each project we worked on taught us how 
+                    important it is to combine creativity with functionality, vision with execution. 
+                    What began as curiosity turned into determination, and that determination evolved
+                    into a mission — to craft meaningful experiences that inspire and connect.
+
+                    Today, our story is still being written. Every idea we pursue and every 
+                    challenge we overcome becomes a new chapter. And while we’re proud of how far 
+                    we’ve come, what excites us most is the road ahead — full of possibilities, 
+                    collaborations, and opportunities to keep building something greater together.
+                </p>
+            </div>
+
+        </div>
+
+        
+    </body>
+    <script>
+  </script>
+</html>
